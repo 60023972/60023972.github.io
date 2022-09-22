@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+		<title>Contact Us - Perth Plants</title>
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="../scripts/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="title">
+				<a href="../index.html"><h1>perth plants</h1></a>
+			</div>
+			<nav>
+				<a class="nav-link" href="../index.html">home</a>
+				<a class="nav-link" href="sitemap.html">sitemap</a>
+				<a class="nav-link" href="plants.html">plants</a>
+				<a class="nav-link" href="faq.html">faq</a>
+				<a class="nav-link current" href="#">contact</a>
+			</nav>
+		</header>
+		<div class="page-background contact-image">
+			<div class="infobox-left">
+				<h3>Everything else</h3>
+				<p>...anything at all</p>
+			</div>
+			<div class="sbox-left"></div>
+			<div class="sbox-left"></div>
+			<div class="sbox-left"></div>
+		</div>
+		<div class="sm-panel">
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-instagram"></a>
+		</div>
+		<div class="page-contents">
+			<h2>Get in touch</h2>
+			<p>
+				We'd love for you to get in contact with us for any queries, questions, or concerns. Just use this form, and we'll get back within 24 hours!
+			</p>
+			<form onsubmit="return false">
+				<input type="text" id="email" placeholder="Email (won't be published)" required>
+				<input type="text" id="subject" placeholder="Subject" required>
+				<textarea id="message" placeholder="Message" required></textarea>
+				<input type="submit" onClick="toggle('form-success')" id="submit" value="Submit" >
+			</form>
+			<p class="show" style="display:none;" id="form-success">Successfully submitted! We'll get back to you through email within 24 hours.</p>
+		</div>
+		<footer>
+			<p class="copyright">
+				© 2022 SOUTH REGIONAL TECHNOLOGIES
+			</p>
+		</footer>
+	</body>
+</html>
