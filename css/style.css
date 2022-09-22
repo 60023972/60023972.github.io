@@ -42,7 +42,8 @@ header {
 }
 
 footer {
-	background: PapayaWhip;margin-top: auto;
+	background: PapayaWhip;
+	margin-top: auto;
 	display: flex;
 	width: 100%;
 	background-color: var(--black);
@@ -177,6 +178,7 @@ nav {
 	content: "";
 	position: absolute;
 	background-attachment: fixed;
+	background-repeat: round;
 }
 
 .home-image::before {
