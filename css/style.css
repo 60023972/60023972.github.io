@@ -115,11 +115,13 @@ h6 {
 	padding: 8px;
 	border-radius: 4px;
 }
+/*
 h4:target, h3:target {
 	animation-name: highlight-heading;
 	animation-duration: 3s;
 	animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
 }
+*/
 
 #title {
 	width: 50%;
